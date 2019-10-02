@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Pense-bête HTML – Balises d'en-tête</title>
+</head>
+<body>
+  <h1>Balises d'en-tête</h1>
+  <a href="../index.html">Retour à la page d'accueil:</a><br>
+  <p>Cette page définit les balises suivantes:</p>
+  <ul>
+    <li><a href='#doctype'><code>&lt;!DOCTYPE html&gt;</code></a></li>
+    <li><a href='#html'><code>&lt;html&gt;</code></a></li>
+    <li><a href='#head'><code>&lt;head&gt;</code></a></li>
+    <li><a href='#meta'><code>&lt;meta&gt;</code></a></li>
+    <li><a href='#link'><code>&lt;link&gt;</code></a></li>
+    <li><a href='#title'><code>&lt;title&gt;</code></a></li>
+    <li><a href='#script'><code>&lt;script&gt;</code></a></li>
+    <li><a href='#style'><code>&lt;style&gt;</code></a></li>
+  </ul>
+  
+  <a name="doctype"></a>
+  <h2><code>&lt;!DOCTYPE html&gt;</code></h2>
+  <dfn>Se met au début d'un fichier HTML. Il indique au navigateur que le fichier doit être interprété en langage HTML 5.</dfn>
+
+  <a name="comment"></a>
+  <h2><code>&lt;!--&gt;</code></h2>
+  <dfn>Permet d'ajouter un commentaire, situé entre <code>&lt;!--</code> et <code>--&gt;</code>.</dfn>
+
+  <a name="html"></a>
+  <h2><code>&lt;html&gt;&lt;/html&gt;</code></h2>
+  <dfn>Balise indiquant au navigateur le code à interpréter en HTML.</dfn>
+  <br/><br/>
+
+  <a name="head"></a>
+  <h2><code>&lt;head&gt;&lt;/head&gt;</code></h2>
+  <dfn>Balise servant d'en-tête au document HTML: dans cet en-tête figurera des éléments charactéristiques de la page tel que son nom, ou l'encodage à suivre pour interpréter du texte.</dfn>
+  <br></br>
+  <a href="#top">Retourner à la liste de balises</a>
+
+  <a name="meta"></a>
+  <h2><code>&lt;meta/&gt;</code></h2>
+  <dfn>Balise permettant d'indiquer des méta-données sur le document.</dfn>
+
+  <a name="link"></a>
+  <h2><code>&lt;link/&gt;</code></h2>
+  <dfn></dfn>
+
+  <a name="title"></a>
+  <h2><code>&lt;title&gt;&lt;/title&gt;</code></h2>
+  <dfn>Balise indiquant au navigateur le nom du document, à afficher sur une barre d'onglets par exemple.</dfn>
+
+  <a name="script"></a>
+  <h2><code>&lt;script&gt;&lt;/script&gt;</code></h2>
+  <dfn>Permet d'insérer du code JavaScript, permettant d'effectuer des opérations sur le contenu du document.</dfn>
+
+  <a name="style"></a>
+  <h2><code>&lt;style&gt;&lt;/style&gt;</code></h2>
+  <dfn>Permet d'insérer du code CSS, permettant de modifier la mise en page du document.</dfn>
+</body>
+</html>
