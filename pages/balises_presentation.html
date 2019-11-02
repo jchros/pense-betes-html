@@ -14,91 +14,89 @@
       <li><a href="liste.html">Liste de Balises HTML</a></li>
   </ul>
 
-  <h2>Les balises de présentation</h2>
+<h2>Les balises de présentation</h2>
 
- <h3>abbr</h3>
- <dfn></dfn>
- <h4>Exemple</h4>
- <code>&lt;abbr title="Union nationale des entraîneurs et cadres techniques du football français"&gt;UNECATEF&lt;/abbr&gt;</code><br/>
- <abbr title="Union nationale des entraîneurs et cadres techniques du football français">UNECATEF</abbr>
-
-
- <h3>b</h3>
- <dfn></dfn>
- <h4>Exemple</h4>
- <code>Voici du texte en &lt;b&gt;gras&lt;/b&gt;</code><br/>
- Voici du texte en <b>gras</b>
-
- <h3>code</h3>
- <dfn></dfn>
- <h4>Exemple</h4>
- <code>Pour noter du code utilisez la balise &lt;code&gt;&amp;lt;code&amp;gt;&lt;/code&gt;</code><br/>
- Pour noter du code utilisez la balise <code>&lt;code&gt;</code>
-
- <h3>em</h3>
- <dfn></dfn>
- <h4>Exemple</h4>
- <code>Ce texte est &lt;em&gt;important&lt;/em&gt;</code><br/>
- Ce texte est <em>important</em>
-
- <h3>hr</h3>
- <dfn></dfn>
- <h4>Exemple</h4>
- La ligne qui suit:
- <hr>
+  <h3>abbr</h3>
+    <dfn>La balise &lt;abbr&gt; nous permet de définir une abréviation ou un acronyme elle n'est pas afficher dans la page html mais elle indique au navigateur la définition de cette abréviation </dfn>
+    <h4>Exemple</h4>
+    <code>&lt;abbr title="Union nationale des entraîneurs et cadres techniques du football français"&gt;UNECATEF&lt;/abbr&gt;</code> soit <p><abbr title="Union nationale des entraîneurs et cadres techniques du football français">UNECATEF</abbr></p>
 
 
- <h3>i</h3>
- <dfn></dfn>
- <h4>Exemple</h4>
- <code>Ce texte est en &lt;i&gt;italique&lt;/i&gt;</code><br/>
- Ce texte est en <i>italique</i>
+  <h3>b</h3>
+    <dfn>Cette balise nous permettra de mettre en gras un mot clés ou un fragement de texte</dfn>
+    <h4>Exemple</h4>
+      <p>Voici du texte en <code>&lt;b&gt;gras&lt;/b&gt;</code> soit <b>très gras</b></p>
 
- <h3>main</h3>
- <dfn></dfn>
+  <h3>code</h3>
+    <dfn>La balise &lt;code&gt; nous permettra d'utiliser des fragements de code d'un langage, Elle lui permettra de lui donner une police spécifique par rapport au autre.</dfn>
+    <h4>Exemple</h4>
+      <p>Pour noter du code utilisez la balise <code></code>&lt;code&gt;</code> soit <code> &lt;p&gt;Hello&lt;p&gt; </code></p>
 
- <h3>p</h3>
- <dfn></dfn>
+  <h3>em</h3>
+    <dfn>Cette balise permet de mettre un élément d'un texte en évidence.</dfn>
+    <h4>Exemple</h4>
+      <p>Ce texte est <code>&lt;em&gt;en évidence&lt;/em&gt;</code> comme ce texte <em>en évidence</em></p>
 
- <h3>pre</h3>
- <dfn></dfn>
- <h4>Exemple</h4>
- <pre>La balise pre permet d'écrire du code plus long sans balises br:&lt;br/&gt;&lt;pre&gt;
-    #include &amp;lt;iostream&amp;rt;
+  <h3>hr</h3>
+    <dfn>Cette balise permet de representer une nouvelle idée d'un bloc de texte</dfn>
+    <h4>Exemple</h4>
+      <p>On va voir comment on peut faire voler des avions ...</p>
+      <code><hr></code>
+      <p>Maintenant comment on va faire voler la voiture</p>
+      
 
-    int main () {
-        std::cout &lt;&lt; "Hello World!\n";
-        return 0;
-    }&lt;/pre&gt;</pre>
-  La balise pre permet d'écrire du code plus long sans balises br:<br/><pre>
-    #include &amp;lt;iostream&amp;gt;
 
-    int main() {
-        std::cout &lt;&lt; "Hello World!\n";
-        return 0;
-    }</pre>
+  <h3>i</h3>
+    <dfn>Cette balise perme de mettre en italique un fragement de texte</dfn>
+    <h4>Exemple</h4>
+      <p>Ce texte est en <code>&lt;i&gt;italique&lt;/i&gt;</code> comme ce <i>texte</i></p>
 
- <h3>strong</h3>
- <dfn></dfn>
- <h4>Exemple</h4>
- <code>Ce texte est &lt;strong&gt;très important&lt;/strong&gt;</code><br/>
- Ce texte est <strong>très important</strong>
+  <h3>p</h3>
+    <dfn>Cette balise permet de définir et d'afficher un paragraphe.</dfn>
+    <h4>Exemple</h4>
+      <p>Ce paragraphe est en <code>&lt;p&gt; Hello, j'apprend à coder &lt;/i&gt;</code> ici </p> <p>Hello, j'apprend à coder </p>
+  
+  <h3>main</h3>
+    <dfn></dfn>
 
- <h3>sub</h3>
- <dfn></dfn>
- <h4>Exemple</h4>
- <code>x&lt;sub&gt;0&lt;/sub&gt; = 1</code><br/>
- x<sub>0</sub> = 1
+  <h3>pre</h3>
+    <dfn></dfn>
+    <h4>Exemple</h4>
+      <pre>La balise pre permet d'écrire du code plus long sans balises br:&lt;br/&gt;&lt;pre&gt;
+          #include &amp;lt;iostream&amp;rt;
 
- <h3>sup</h3>
- <dfn></dfn>
- <code>2&lt;sup&gt;3&lt;/sup&gt; = 8</code><br/>
- 2<sup>3</sup> = 8
+          int main () {
+              std::cout &lt;&lt; "Hello World!\n";
+              return 0;
+          }&lt;/pre&gt;</pre>
+        La balise pre permet d'écrire du code plus long sans balises br:<br/><pre>
+          #include &amp;lt;iostream&amp;gt;
 
- <h3>u</h3>
- <dfn></dfn>
- <code>Ce texte est &lt;u&gt;souligné&lt;/u&gt;</code><br/>
- Ce texte est <u>souligné</u>
+          int main() {
+              std::cout &lt;&lt; "Hello World!\n";
+              return 0;
+          }</pre>
+
+  <h3>strong</h3>
+    <dfn>Elle permet d'indiquer qu'un élément d'un texte est très important</dfn>
+    <h4>Exemple</h4>
+      <p>Ce texte est <code>&lt;strong&gt; très important &lt;/strong&gt; </code> comme cette exemple <strong>très important</strong></p>
+  
+
+  <h3>sub</h3>
+    <dfn>Cette balise permet de mettre en indice du texte(en bas et plus petit)</dfn>
+    <h4>Exemple</h4>
+      <p>Calculons : <code>x&lt;sub&gt;0&lt;/sub&gt; = 1</code> soit x<sub>0</sub> = 1 </p>
+
+  <h3>sup</h3>
+    <dfn>Cette balise pemet de mettre du texte en exposant(en haut et plus petit)</dfn>
+    <h4>Exemple</h4>
+      <p>Calculons : <code>2&lt;sup&gt;3&lt;/sup&gt; = 8</code> soit 2<sup>3</sup> = 8</p>
+
+  <h3>u</h3>
+    <dfn>Cette balise permet de souligné</dfn>
+      <code>Ce texte est &lt;u&gt;souligné&lt;/u&gt;</code><br/>
+      <p>Ce texte est <u>souligné</u></p>
 
 </body>
 </html>
